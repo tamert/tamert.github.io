@@ -48,8 +48,10 @@ h4, p { margin:0; padding: 0;}
 
 
 hr {
-	border-top: 1px solid #8c8b8b;
+	border-top: 1px solid #E5E5E5;
 	border-bottom: 1px solid #fff;
+	border-left:none;
+	border-right:none;
 }
 /*  ==========================================================================
     PRINT
