@@ -100,9 +100,6 @@ front-end developers by integrating their work with the PHP or Python applicatio
       <p>90 535 742 90 20</p>
   </footer>
 </div>
-
-
-
 <script>
   var overlays = [
     ['Tokyo, Japan', 'http://www.pekdijital.com/image/image-1.jpg'],
@@ -112,9 +109,8 @@ front-end developers by integrating their work with the PHP or Python applicatio
     ['Bilkent - Ankara, Turkey', 'http://www.pekdijital.com/image/image-5.jpg'],
     ['San Francisco, USA', 'http://www.pekdijital.com/image/image-6.jpg'],
     ['Peace Children', 'http://www.pekdijital.com/image/image-7.jpg'],
-    
+   
   ];
-
   function changeBackground() {
     var randomPhoto = overlays[Math.floor(Math.random() * overlays.length)];
     var background = document.querySelector('.background');
@@ -122,7 +118,6 @@ front-end developers by integrating their work with the PHP or Python applicatio
     background.style.backgroundImage = 'url(' + randomPhoto[1] + ')';
     title.innerHTML = randomPhoto[0];
   }
-
   changeBackground();
 </script>
 </body>
