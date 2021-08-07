@@ -13,13 +13,24 @@
     <link rel="icon" href="img/icon-16.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <link rel="stylesheet" href="css/style.css" media="screen">
+    <meta name="theme-color" content="#ffffff" />
+<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+<style type="text/css">
+html, body { height: 100%; }
+
+
+
+
+    body { color: #F8861E; background: rgb(104,75,60);
+background: linear-gradient(180deg, rgba(104,75,60,1) 0%, rgba(0,62,75,1) 60%, rgba(45,45,45,1) 100%) #2d2d2d; background-repeat: no-repeat; }
+    td, tr, th { border-color: #402819 !important; color: #F8861E; }
+    h1 span { color: #FFF; }
+    .container {
+         background: #222; border: 2px solid #F8861E; margin-bottom: 0 !important; padding: 2rem; margin-top: 1rem; margin-bottom: 1rem;
+</style>
+
 </head>
-<body class="bg-dark" style="height: 100%;">
-<h1 id="indicators" class="photo-title">
-    <span id="photo-title"></span>
-</h1>
-<div class="background"></div>
+ <body class="terminal">
 <div class="container">
     <div class="bs-docs-section clearfix">
         <div class="row"></div>
@@ -31,61 +42,70 @@
             </div>
         </div>
     </div>
+
+    <div class="terminal-nav">
+    <div class="terminal-logo">
+      <div class="logo terminal-prompt"><a href="#" class="no-style">Tamer Ağaoğlu</a> <span style="color:#FFF">Backend Developer</span></div>
+    </div>
+    <nav class="terminal-menu">
+      <ul>
+         <li>
+                                        <a  class="menu-item"  href="https://taag-dev.medium.com">blog</a>
+                                    </li>
+                                    <li>
+                                        <a  class="menu-item"  href="https://www.linkedin.com/tamer-a-4325341b/">linkedin</a>
+                                    </li>
+                                    <li>
+                                        <a  class="menu-item"  href="http://github.com/tamert">github</a>
+                                    </li>
+                                    <li>
+                                        <a  class="menu-item"  href="http://twitter.com/t_agaoglu">twitter</a>
+                                    </li>
+
+
+      </ul>
+    </nav>
+</div>
+
     <div class="bs-docs-section mt-4">
         <div class="row">
-            <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3">
-                    
-                    <div class="card-body">
-                        <p class="card-text text-center">
-                            <img style=" width:40%; display:inline-block;"
-                                 src="http://tamert.github.io/img/user.png" alt="Tamer Ağaoğlu">
-                        </p>
-                        <div class="headline">
-                          <h1 class="card-header">Tamer Ağaoğlu</h1>
-                            <h4 class="full-stack">Full-Stack Developer</h4>
-                            <nav class="mt-2">
-                                <ul>
-                                    <li>
-                                        <a href="https://medium.com/@taag.dev">blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/tamer-a-4325341b/">linkedin</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://github.com/tamert">github</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://twitter.com/t_agaoglu">twitter</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-lg-8">
                 <div class="jumbotron">
                     <h1 class="mt-0">
-                        <span>Who</span>
+                        <span>About</span>
                     </h1>
-                    <p>Have 10+ year experience in IT industry.
-                        <br>
-                        I am responsible for writing server-side web application logic. I usually develop back-end
-                        components,
-                        connect the application with the other web services, and support the
-                        front-end developers by integrating their work with the Python or PHP application. Have worked
-                        with PHP (Symfony), Python (Django). I like learning and discovering new things and areas. My
-                        hobbies are travelling, reading, ham radio and hiking.
-                    </p>
+                    <p>I'm 33 years old. Married and Have two sons. I am working 8 hours per day. I'm ready to relocation at nearest time and I like short business trips (about 1 week). I practice creative approach all the time in work and live. I think what most important thing in development is understanding of problem (creating problem) and thinking about build: ideal case is solve the task without any line of code.<br>
+
+I like learning and discovering new things and areas. My hobbies are traveling, reading, ham radio and hiking.
+
+</p>
                     <p>
                         <a class="btn btn-lg btn-primary" href="https://github.com/tamert" role="button">View on Github
                             »</a>
                     </p>
                 </div>
+
+
+                <div class="jumbotron">
+                    <h1 class="mt-0">
+                        <span>Expreriece</span>
+                    </h1>
+                    <p>I'm Team Lead of Backend Developer, PHP Laravel / Symfony — 6 years, Python Django 3 years, Node NestJS 4 mouth in web-dev more than 14 years. I am responsible for writing server-side web application logic. I usually develop back-end components, connect the application with the other web services, and support the front-end developers by integrating their work with the Python or PHP application. Have worked with PHP (Symfony), Python (Django).
+
+I'm creating RESTful and GraphQL APIs, working by service-oriented paradigm. 
+I use Agile/Scrum.
+
+</p>
+            
+                </div>
+
+
                 <div class="content">
                     <div class="panel panel-default panel-primary">
-                        <div class="panel-heading">Abilities</div>
+                                  <h1 class="mt-0">
+                        <span>Abilities</span>
+                    </h1>
+
                         <div class="panel-body">
                             <ul class="list-group">
                                 <li class="list-group-item">Python - Django, Django Rest Framework, Flask, PyQT
@@ -140,16 +160,20 @@
             </div>
         </div>
     </div>
-</div>
+
 <div class="city">
-    <div class="container">
+
         <div class="row">
             <div class="col-md-4">
             </div>
             <div class="col-md-8">
                 <div class="content">
                     <div class="panel panel-default panel-primary">
-                        <div class="panel-heading">Projects</div>
+                        
+  <h1 class="mt-0">
+                        <span>Projects</span>
+                    </h1>
+
                         <div class="panel-body">
                             <table class="table table-striped table-hover ">
                                 <thead>
@@ -295,7 +319,11 @@
                         </div>
                     </div>
                     <div class="panel panel-default panel-success">
-                        <div class="panel-heading">Contact</div>
+
+                              <h1 class="mt-0">
+                        <span>Contact</span>
+                    </h1>
+
                         <div class="panel-body">
                             <p>farerock[at]gmail.com</p>
                             <p>90 535 742 90 20</p>
@@ -303,7 +331,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 
