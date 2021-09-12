@@ -17,7 +17,7 @@ h1 span {
 body {
     background-color: #161616;
     color: #FB8F09 !important;
-    text-shadow: 0 0 10px #a00703 !important;
+    text-shadow: 0 0 10px #be7600 !important;
 }
 .terminal-prompt::before {
     color: #FB8F09 !important;
@@ -34,7 +34,8 @@ body {
 .btn-primary {
     background: #FB8F09 !important;
     color: #161616 !important;
-    border: #a00703;
+    border: #be7600;
+    box-shadow:0 0 10px #be7600 !important;
 }
 .terminal-timeline::before
 {
@@ -42,7 +43,7 @@ body {
 }
 .terminal-card {
     border: 1px solid #FB8F09;
-    box-shadow:0 0 10px #a00703 !important;
+    box-shadow:0 0 10px #be7600 !important;
 }
 .terminal-card>header {
     background: #161616;
