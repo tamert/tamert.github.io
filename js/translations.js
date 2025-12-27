@@ -1,0 +1,62 @@
+const translations = {
+    "en": {
+        "welcome_back": "Welcome back, last login:",
+        "from_site": "from tamert.github.io",
+        "about_title": "About",
+        "view_github": "View on Github \u00bb",
+        "experience_title": "Experience",
+        "abilities_title": "Abilities",
+        "projects_title": "Projects",
+        "tbl_year": "Year",
+        "tbl_project": "Project",
+        "tbl_used": "Used",
+        "timeline_title": "Timeline",
+        "contact_title": "Contact",
+        "role_team_lead": "Backend Team Lead",
+        "role_backend_dev": "Backend Developer",
+        "role_fullstack_dev": "Full-Stack Developer",
+        "role_web_app_dev": "Web Application Developer",
+        "nav_blog": "blog",
+        "nav_linkedin": "linkedin",
+        "nav_github": "github",
+        "nav_twitter": "twitter",
+        "nav_cv": "cv",
+
+        "about_text_1": "I am a backend-focused software engineer with over 14 years of experience in web development. Throughout my career, I have worked extensively with PHP, Python, and more recently with NestJS and Go, building reliable, scalable, and maintainable systems. I value clarity, simplicity, and long-term sustainability in the software I design.",
+        "about_text_2": "My experience spans developing RESTful and GraphQL APIs, designing service-oriented architectures, and working with relational databases. I have led backend teams, taken ownership of critical systems, and contributed to projects where performance, security, and clean architecture were essential. In recent years, I have been actively working with NestJS and Go, focusing on modern backend patterns and efficient system design.",
+        "about_text_3": "I approach development with a strong sense of responsibility and attention to detail. Understanding business needs and translating them into robust technical solutions is a core part of my work. I believe well-written code should be readable, testable, and easy to evolve. Clear communication and collaboration are as important to me as technical excellence.",
+        "about_text_4": "I enjoy continuously learning and exploring new technologies and concepts. Outside of software development, my interests include traveling, reading, amateur radio, and hiking.",
+        "experience_text": "I am a Backend Team Lead with over 14 years of experience in web development. I have worked extensively with PHP (Symfony, Laravel) and Python (Django), and in recent years I have been actively developing backend systems using NestJS and Go. My primary focus is designing and maintaining scalable, secure, and maintainable server-side architectures.\n\nI am responsible for backend system design, API development, and technical decision-making. I build RESTful and GraphQL APIs, design service-oriented and modular architectures, and ensure smooth integration between backend services and frontend applications. I place strong emphasis on code quality, performance, and long-term sustainability.\n\nI have experience leading backend teams, mentoring developers, and working closely with product and frontend teams. I am comfortable working in Agile/Scrum environments and contributing both as a technical leader and hands-on developer."
+    },
+    "tr": {
+        "welcome_back": "Tekrar hoşgeldiniz, son giriş:",
+        "from_site": "tamert.github.io üzerinden",
+        "about_title": "Hakkımda",
+        "view_github": "Github'da Görüntüle \u00bb",
+        "experience_title": "Deneyim",
+        "abilities_title": "Yetenekler",
+        "projects_title": "Projeler",
+        "tbl_year": "Yıl",
+        "tbl_project": "Proje",
+        "tbl_used": "Kullanılan",
+        "timeline_title": "Zaman Çizelgesi",
+        "contact_title": "İletişim",
+        "role_team_lead": "Backend Takım Lideri",
+        "role_backend_dev": "Backend Geliştirici",
+        "role_fullstack_dev": "Full-Stack Geliştirici",
+        "role_web_app_dev": "Web Uygulama Geliştiricisi",
+        "nav_blog": "blog",
+        "nav_linkedin": "linkedin",
+        "nav_github": "github",
+        "nav_twitter": "twitter",
+        "nav_cv": "cv",
+
+        "about_text_1": "14 yılı aşkın süredir web geliştirme alanında çalışan, ağırlıklı olarak backend odaklı bir yazılım geliştiricisiyim. Kariyerim boyunca PHP ve Python ile yoğun şekilde çalıştım; son dönemde ise NestJS ve Go kullanarak ölçeklenebilir, güvenilir ve sürdürülebilir sistemler geliştiriyorum. Yazılımda sadelik, netlik ve uzun vadeli bakım benim için önceliklidir.",
+        "about_text_2": "RESTful ve GraphQL API’ler geliştirme, servis odaklı mimariler tasarlama ve ilişkisel veritabanlarıyla çalışma konularında derin deneyime sahibim. Backend takım liderliği yaptım, kritik sistemlerin sorumluluğunu üstlendim ve performans, güvenlik ve temiz mimarinin önemli olduğu projelerde aktif rol aldım. Son yıllarda NestJS ve Go ile modern backend yaklaşımlarına odaklanıyorum.",
+        "about_text_3": "Geliştirme sürecinde iş ihtiyaçlarını doğru anlamaya ve bunları sağlam teknik çözümlere dönüştürmeye önem veririm. Yazdığım kodun okunabilir, test edilebilir ve zamanla evrilebilir olması benim için kritiktir. Teknik yeterlilik kadar, açık iletişim ve ekip içi uyumun da başarılı projelerin temelini oluşturduğuna inanıyorum.",
+        "about_text_4": "Yeni teknolojiler öğrenmek ve farklı alanları keşfetmekten keyif alırım. Yazılım dışında seyahat etmek, okumak, amatör telsizcilik ve doğa yürüyüşleri ilgi alanlarım arasındadır.",
+        "experience_text": "14 yılı aşkın süredir web geliştirme alanında çalışan bir Backend Takım Lideriyim. PHP (Symfony, Laravel) ve Python (Django) ile uzun yıllar çalıştım; son dönemde ise NestJS ve Go kullanarak modern backend sistemleri geliştiriyorum. Ölçeklenebilir, güvenli ve bakımı kolay sunucu tarafı mimariler tasarlamak ana odak noktamdır.\n\nBackend mimarisinin tasarlanması, API geliştirme ve teknik kararların alınmasında aktif rol alıyorum. RESTful ve GraphQL API’ler geliştiriyor, servis odaklı ve modüler yapılar kuruyor, frontend ekipleriyle entegrasyon süreçlerini yönetiyorum. Kod kalitesi, performans ve uzun vadeli sürdürülebilirlik benim için kritik öneme sahiptir.\n\nBackend ekiplerine liderlik ettim, geliştiricilere mentorluk yaptım ve ürün ile frontend ekipleriyle yakın çalıştım. Agile/Scrum ortamlarında hem teknik lider hem de aktif geliştirici olarak çalışmaya alışığım."
+
+
+    }
+};
